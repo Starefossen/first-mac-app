@@ -10,9 +10,17 @@
 
 @implementation DNTAppDelegate
 
+@synthesize textField;
+@synthesize slider;
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
 }
 
+- (IBAction)mute:(id)sender {
+}
+
+- (IBAction)takeFloatValueForVolumeFrom:(id)sender {
+}
 @end

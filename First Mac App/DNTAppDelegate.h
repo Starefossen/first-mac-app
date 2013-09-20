@@ -11,5 +11,10 @@
 @interface DNTAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSTextField *textField;
+@property (weak) IBOutlet NSSlider *slider;
+
+- (IBAction)mute:(id)sender;
+- (IBAction)takeFloatValueForVolumeFrom:(id)sender;
 
 @end
