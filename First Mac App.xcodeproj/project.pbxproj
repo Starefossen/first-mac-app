@@ -18,6 +18,7 @@
 		BE961EA617EC8A2A0028E6F2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE961E8517EC8A2A0028E6F2 /* Cocoa.framework */; };
 		BE961EAE17EC8A2A0028E6F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE961EAC17EC8A2A0028E6F2 /* InfoPlist.strings */; };
 		BE961EB017EC8A2A0028E6F2 /* First_Mac_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE961EAF17EC8A2A0028E6F2 /* First_Mac_AppTests.m */; };
+		BE961EBA17EC95080028E6F2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BE961EB917EC95080028E6F2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		BE961EAB17EC8A2A0028E6F2 /* First Mac AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "First Mac AppTests-Info.plist"; sourceTree = "<group>"; };
 		BE961EAD17EC8A2A0028E6F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE961EAF17EC8A2A0028E6F2 /* First_Mac_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = First_Mac_AppTests.m; sourceTree = "<group>"; };
+		BE961EB917EC95080028E6F2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		BE961E7917EC8A2A0028E6F2 = {
 			isa = PBXGroup;
 			children = (
+				BE961EB917EC95080028E6F2 /* README.md */,
 				BE961E8B17EC8A2A0028E6F2 /* First Mac App */,
 				BE961EA917EC8A2A0028E6F2 /* First Mac AppTests */,
 				BE961E8417EC8A2A0028E6F2 /* Frameworks */,
@@ -233,6 +236,7 @@
 			files = (
 				BE961E9017EC8A2A0028E6F2 /* InfoPlist.strings in Resources */,
 				BE961E9E17EC8A2A0028E6F2 /* Images.xcassets in Resources */,
+				BE961EBA17EC95080028E6F2 /* README.md in Resources */,
 				BE961E9617EC8A2A0028E6F2 /* Credits.rtf in Resources */,
 				BE961E9C17EC8A2A0028E6F2 /* MainMenu.xib in Resources */,
 			);
